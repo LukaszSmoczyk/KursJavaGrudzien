@@ -9,6 +9,7 @@ public class Main {
         listaJednokierunkowa.add(new ElementListyJednokierunkowej(58));
         listaJednokierunkowa.add(new ElementListyJednokierunkowej(78));
         listaJednokierunkowa.pop();
+        listaJednokierunkowa.add(new ElementListyJednokierunkowej(100));
 
 
 

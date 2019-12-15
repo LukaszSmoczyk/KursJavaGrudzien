@@ -5,11 +5,7 @@ public class ListaJednokierunkowa {
     private ElementListyJednokierunkowej head;
     private ElementListyJednokierunkowej tail;
     private int index;
-    private final TrybPracyListy trybPracyListy;
 
-    public ListaJednokierunkowa(TrybPracyListy trybPracyListy){
-        this.trybPracyListy = trybPracyListy;
-    }
 
     public void add(ElementListyJednokierunkowej element) {
         if (head == null) {
