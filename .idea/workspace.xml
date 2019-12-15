@@ -31,20 +31,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Main1">
-    <configuration name="Gotowiec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickSort.Gotowiec" />
-      <module name="Zajecia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QuickSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Program">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ListaJednokierunkowa.Main1" />
       <module name="Zajecia" />
@@ -64,6 +51,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MergeSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Drzewo.Program" />
+      <module name="Zajecia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Drzewo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.WydawanieReszty" />
         <item itemvalue="Application.Wspolna" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Gotowiec" />
       </list>
     </recent_temporary>
   </component>
@@ -133,30 +133,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1576402159642">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1576418475384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576402159642" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576418475384" />
     <state x="447" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576409925595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="447" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1576409925595" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1576407339583">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1576420020265">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576407339583" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1576407339583">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576420020265" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1576420020264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576407339583" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1576407339583">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576420020264" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1576420020264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576407339583" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1576407339583">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576420020264" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1576420020264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576407339583" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576420020264" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1576407339584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -177,10 +177,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576311323106" />
-    <state x="511" y="31" key="refactoring.ChangeSignatureDialog" timestamp="1576402132683">
+    <state x="511" y="31" key="refactoring.ChangeSignatureDialog" timestamp="1576418700204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="511" y="31" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1576402132683" />
+    <state x="511" y="31" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1576418700204" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
